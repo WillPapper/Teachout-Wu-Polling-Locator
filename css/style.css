@@ -269,3 +269,11 @@ body {
   background: #9966cb;
   border-color: #733aab #8040be #8040be;
 }
+
+.title {
+  font-size: 48px;
+}
+
+.subtitle {
+  font-size: 36px;
+}
