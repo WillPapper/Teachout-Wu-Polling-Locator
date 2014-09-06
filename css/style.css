@@ -288,3 +288,7 @@ body {
   line-height: 100px;
   margin: 20px;
 }
+
+#inputaddress {
+  width: 4in;
+}
