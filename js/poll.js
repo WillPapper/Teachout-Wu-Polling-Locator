@@ -35,11 +35,11 @@ function GetResponse(resp,rawResp) {
   document.getElementById("ppName").innerText="";
   document.getElementById("ppLine1").innerText="";
   document.getElementById("ppLine2").innerText="";
-  var not-yet=document.getElementById("not-yet");
+  var q2=document.getElementById("not-yet");
   var em=document.getElementById("errorMessage");
   em.innerHTML="";
   if (!resp || resp.error) {
-    var em = not-yet.appendChild(document.createElement("tt"));
+    var em = q2.appendChild(document.createElement("tt"));
     em.innerHTML="<br>An error occurred while trying to fetch the polling place information<br>" + JSON.stringify(resp);
     return;
   }
