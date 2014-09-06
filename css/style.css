@@ -278,3 +278,11 @@ body {
   font-size: 36px;
   line-height: 42px;
 }
+
+.button-large {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 100px;
+}
