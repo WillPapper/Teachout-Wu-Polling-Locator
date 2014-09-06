@@ -293,6 +293,6 @@ body {
   width: 4in;
 }
 
-.not-yet {
+#not-yet {
   display: none;
 }
