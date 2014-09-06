@@ -115,8 +115,7 @@ function q1Yes() {
   document.location="http://teachoutwu.amicushq.com/landing/1";
 }
 function q1NotYet() {
-  document.getElementById("q1").style.display="none";
-  document.getElementById("ads").style.display="block";
+  document.getElementById("buttons").style.display="none";
   document.getElementById("q2").style.display="block";
   document.getElementById("inputaddress").focus();
 }
