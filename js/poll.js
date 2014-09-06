@@ -116,7 +116,7 @@ function q1Yes() {
 }
 function q1NotYet() {
   document.getElementById("buttons").style.display="none";
-  document.getElementById("q2").style.display="block";
+  document.getElementById("not-yet").style.display="block";
   document.getElementById("inputaddress").focus();
 }
 function SetToolAlignment() {
