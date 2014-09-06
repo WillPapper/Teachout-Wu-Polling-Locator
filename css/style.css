@@ -292,3 +292,7 @@ body {
 #inputaddress {
   width: 4in;
 }
+
+.not-yet {
+  display: none;
+}
