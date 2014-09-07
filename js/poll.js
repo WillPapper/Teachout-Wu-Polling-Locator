@@ -38,7 +38,7 @@ function GetResponse(resp,rawResp) {
   var q2=document.getElementById("not-yet");
   var em=document.getElementById("errorMessage");
   em.innerHTML="";
-  if (!resp || resp.error) {
+  if (resp === null || !resp || resp.error) {
     var em = q2.appendChild(document.createElement("tt"));
     em.innerHTML='<br>Sorry, something went wrong. Try this <a href="http://www.elections.ny.gov/CountyBoards.html">link</a>.<br>'
     return;
