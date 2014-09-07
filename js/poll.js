@@ -40,7 +40,7 @@ function GetResponse(resp,rawResp) {
   em.innerHTML="";
   if (!resp || resp.error) {
     var em = q2.appendChild(document.createElement("tt"));
-    em.innerHTML="<br>An error occurred while trying to fetch the polling place information<br>" + JSON.stringify(resp);
+    em.innerHTML='<br>Sorry, something went wrong. Try this <a href="http://www.elections.ny.gov/CountyBoards.html">link.</a><br>";'
     return;
   }
 
