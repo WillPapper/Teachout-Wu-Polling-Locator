@@ -19,45 +19,56 @@
 	</head>
 
 <body>
-  <div class="container">
-    <h1 class="title">Teachout / Wu 2014<h1>
-    <br>
-    <h2 class="subtitle">Did you vote for Zephyr Teachout?<h2>
-    <br>
-    <div id="buttons">
-      <a href="#" class="button button-darkblue button-large" onclick="q1Yes()">Yes</a>
-      <a href="#" class="button button-darkblue button-large" onclick="q1NotYet()">Not Yet</a>
-    </div>
-  </div>
+	<div id="pre-tuesday">
+		<div class="container">
+			<h1 class="title">Teachout / Wu 2014<h1>
+			<br>
+			<h2 class="subtitle">Hey there!<h2>
+			<br>
+			<p>HaveYouVotedTeachoutWuYet.com is a site designed to give you everything you need to vote Teachout-Wu this Tuesday, and make sure as many people as possible join you. Come back Tuesday morning, and in the meantime, please spread the word.</p>
+		</div>
+	</div>
+	<div id="post-tuesday">
+	  <div class="container">
+	    <h1 class="title">Teachout / Wu 2014<h1>
+	    <br>
+	    <h2 class="subtitle">Did you vote for Zephyr Teachout?<h2>
+	    <br>
+	    <div id="buttons">
+	      <a href="#" class="button button-darkblue button-large" onclick="q1Yes()">Yes</a>
+	      <a href="#" class="button button-darkblue button-large" onclick="q1NotYet()">Not Yet</a>
+	    </div>
+	  </div>
 
-	<div id="not-yet">
-  	<p>Do you know where to vote?</p>
+		<div id="not-yet">
+	  	<p>Do you know where to vote?</p>
 
-  	Enter your address and we'll tell you where to go:<br>
-  	<input id="inputaddress" onkeydown="enterkey()" type="text" name="address">
-  	<button id="btnSearch" class="button button-darkblue" onclick="search()">Search</button>
+	  	Enter your address and we'll tell you where to go:<br>
+	  	<input id="inputaddress" onkeydown="enterkey()" type="text" name="address">
+	  	<button id="btnSearch" class="button button-darkblue" onclick="search()">Search</button>
 
-  	<div id="PollingPlace" style="display:none;">
-  		<div>Your polling place:</div>
-  		<div id="ppName"></div>
-  		<div id="ppLine1"></div>
-  		<div id="ppLine2"></div>
-  	</div>
+	  	<div id="PollingPlace" style="display:none;">
+	  		<div>Your polling place:</div>
+	  		<div id="ppName"></div>
+	  		<div id="ppLine1"></div>
+	  		<div id="ppLine2"></div>
+	  	</div>
 
-  	<span id="errorMessage" style="display:none;"></span>
+	  	<span id="errorMessage" style="display:none;"></span>
 
-  </div>
+	  </div>
 
 
-  <div class="about">
-    <p class="about-links">
-      <a href="http://www.teachoutwu.com/" target="_parent">Teachout - Wu</a>
-      <a href="https://github.com/wpapper/Teachout-Wu-Polling-Locator" target="_parent">View Code</a>
-    </p>
-    <p class="about-author">
-      &copy; 2014 <a href="http://papper.me/" target="_blank">William Papper</a> -
-      <a href="http://dnevin.com/" target="_blank">David Nevin</a><br>
-    </p>
-  </div>
+	  <div class="about">
+	    <p class="about-links">
+	      <a href="http://www.teachoutwu.com/" target="_parent">Teachout - Wu</a>
+	      <a href="https://github.com/wpapper/Teachout-Wu-Polling-Locator" target="_parent">View Code</a>
+	    </p>
+	    <p class="about-author">
+	      &copy; 2014 <a href="http://papper.me/" target="_blank">William Papper</a> -
+	      <a href="http://dnevin.com/" target="_blank">David Nevin</a><br>
+	    </p>
+	  </div>
+	</div>
 </body>
 </html>

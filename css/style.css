@@ -300,3 +300,16 @@ body {
   margin: 20px;
   line-height: 26px;
 }
+
+#pre-tuesday {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+  line-height: 26px;
+}
+
+#post-tuesday {
+  display: none;
+}
