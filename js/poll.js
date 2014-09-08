@@ -117,7 +117,7 @@ function GetResponse(resp,rawResp) {
 	}
 
 	var pp=document.getElementById("PollingPlace");
-	pp.style.display="inline";
+	// pp.style.display="inline";
 
 	//var ins = pp.appendChild(document.createElement("tt"),"");
 	//ins.style.fontSize="10pt";
