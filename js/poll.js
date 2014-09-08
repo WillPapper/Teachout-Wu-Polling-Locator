@@ -14,7 +14,7 @@ window.onkeydown=function() {
 	//if (key==0x0d) document.getElementById("btnYes").click();
 };
 */
-function search() {
+function activateSearch() {
 	checkAuth();
 }
 function checkAuth() {
