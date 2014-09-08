@@ -22,13 +22,12 @@ function checkAuth() {
 	var Request=gapi.client.request({
 		"path": "/civicinfo/v1/voterinfo/4047/lookup",
 		"method": "POST",
-		"body": {"address": document.getElementById("inputaddress").value}
+		"body": {"address": document.getElementById("address").value}
 	});
 	Request.execute(GetResponse);
 }
 function GetResponse(resp,rawResp) {
 	// clear any old fields
-	document.getElementById("PollingPlace").style.display="none";
 	document.getElementById("name").innerText="";
 	document.getElementById("line1").innerText="";
 	document.getElementById("line2").innerText="";
