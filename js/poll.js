@@ -159,7 +159,7 @@ function inNYC() {
 	document.location="http://nyc.pollsitelocator.com/";
 }
 function outsideNYC() {
-	document.location="http://www.elections.ny.gov/CountyBoards.html";
+	document.location="https://voterlookup.elections.state.ny.us/votersearch.aspx";
 }
 /*
 function SetToolAlignment() {
