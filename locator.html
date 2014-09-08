@@ -8,7 +8,12 @@
   <link rel="stylesheet" href="css/standardize.css">
   <link rel="stylesheet" href="css/page-two-grid.css">
   <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script type="text/javascript" src="js/poll.js"></script>
+  <!--
+  <script type="text/javascript" src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+  -->
+  <script type="text/javascript" src="https://apis.google.com/js/client.js"></script>
 </head>
 <body class="body page-two clearfix">
   <div id="header" class="header header-1">
@@ -19,7 +24,9 @@
     <p id="instruction" class="instruction">Enter your address and we'll tell you where to go.</p>
     <div class="precinct_locator clearfix">
       <input id="address" class="address" placeholder="Eg., 555 Main St., Albany, NY 12201" type="text" onkeydown="enterkey()">
-      <img id="search" class="search" src="images/iconmonstr-magnifier-icon.svg" onclick="search()">
+      <a onclick="search()">
+        <img id="searchBtn" class="searchBtn" src="images/iconmonstr-magnifier-icon.svg">
+      </a>
     </div>
     <p class="pollheader">YOUR POLLING PLACE</p>
     <p id="name" class="result">NOTTINGHAM HIGH SCHOOL (MAIN ENTR)</p>
