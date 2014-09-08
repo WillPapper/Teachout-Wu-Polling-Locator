@@ -156,7 +156,7 @@ body {
   color: #ffffff;
 }
 
-.search {
+.searchBtn {
   display: block;
   position: relative;
   float: left;
@@ -303,7 +303,7 @@ body {
     z-index: 2;
   }
 
-  .precinct_locator .search {
+  .precinct_locator .searchBtn {
     position: relative;
     float: right;
     z-index: 3;
@@ -421,7 +421,7 @@ body {
     font-size: 1.182em;
   }
 
-  .precinct_locator .search {
+  .precinct_locator .searchBtn {
     position: relative;
     z-index: 3;
     height: auto;
@@ -536,7 +536,7 @@ body {
     font-size: 1em;
   }
 
-  .precinct_locator .search {
+  .precinct_locator .searchBtn {
     position: relative;
     z-index: 3;
     height: auto;
