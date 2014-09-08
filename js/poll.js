@@ -28,9 +28,7 @@ function checkAuth() {
 }
 function GetResponse(resp,rawResp) {
 	// clear any old fields
-	document.getElementById("name").innerText="";
-	document.getElementById("line1").innerText="";
-	document.getElementById("line2").innerText="";
+	document.getElementById("result").innerText="";
 	var q2=document.getElementById("content");
 	var em=document.getElementById("errorMessage");
 	//em.style.display="inline";
@@ -124,9 +122,7 @@ function GetResponse(resp,rawResp) {
 	//ins.innerText=JSON.stringify(resp);
 
 	var addr=resp.pollingLocations[0].address;
-	document.getElementById("name").innerText=addr.locationName;
-	document.getElementById("line1").innerText=addr.line1;
-	document.getElementById("line2").innerText=addr.city + ", " + addr.zip;
+	document.getElementById("result").innerText=addr.locationName + "\n" + addr.line1 + "\n" + addr.city + ", " + addr.zip;
 
 
 }
