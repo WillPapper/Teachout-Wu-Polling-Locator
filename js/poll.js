@@ -72,11 +72,9 @@ function GetResponse(resp,rawResp) {
 				// api doc indicates a maximum of one element for all US locations
 				var eab=resp.state[0].electionAdministrationBody;
 				em.innerHTML+=("<br/>Administrative Body: " + eab.name);
-				if (eab.votingLocationFinderUrl) em.innerHTML+=("<br/>link to <a href='" + eab.votingLocationFinderUrl + "' target='blank'>Voting Location Finder</a>");
-				if (eab.electionRegistrationConfirmationUrl) em.innerHTML+=("<br/>link to <a href='" + eab.electionRegistrationConfirmationUrl + "' target='blank'>Election Registration Confirmation</a>");
-				if (eab.electionInfoUrl) em.innerHTML+=("<br/>link to <a href='" + eab.electionInfoUrl + "' target='blank'>Election Information</a>");
-				if (eab.electionRegistrationUrl) em.innerHTML+=("<br/>link to <a href='" + eab.electionRegistrationUrl + "' target='blank'>Election Registration Information</a>");
-				if (eab.hoursOfOperation) em.innerHTML+=("<br/>link to <a href='" + eab.hoursOfOperation + "' target='blank'>Hours of operation</a>");
+				if (eab.votingLocationFinderUrl) em.innerHTML+=("<br/><a href='" + eab.votingLocationFinderUrl + "' target='blank'>Voting Location Finder</a>");
+				if (eab.electionRegistrationConfirmationUrl) em.innerHTML+=("<br/><a href='" + eab.electionRegistrationConfirmationUrl + "' target='blank'>Election Registration Confirmation</a>");
+				if (eab.hoursOfOperation) em.innerHTML+=("<br/><a href='" + eab.hoursOfOperation + "' target='blank'>Hours of operation</a>");
 				if (eab.electionOfficials) {
 					if (eab.electionOfficials.length>0) {
 						em.innerHTML+=("<br/>Election Officials:");
