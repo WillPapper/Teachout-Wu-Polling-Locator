@@ -6,12 +6,14 @@
 //
 ////////////////////////////////////////////////
 
+/*
 window.onkeydown=function() {
 	var key;
 	if (window.event) key=event.keyCode;
 	else if (event.which) key=event.which;
 	//if (key==0x0d) document.getElementById("btnYes").click();
 };
+*/
 function search() {
 	checkAuth();
 }
