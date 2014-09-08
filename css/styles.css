@@ -43,6 +43,14 @@ body {
   color: #ffffff;
 }
 
+.credits a {
+  color: #ffffff;
+}
+
+.credits a:hover {
+  text-decoration: underline;
+}
+
 .footer {
   position: relative;
   float: left;
