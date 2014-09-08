@@ -27,16 +27,16 @@ function checkAuth() {
 function GetResponse(resp,rawResp) {
 	// clear any old fields
 	document.getElementById("PollingPlace").style.display="none";
-	document.getElementById("ppName").innerText="";
-	document.getElementById("ppLine1").innerText="";
-	document.getElementById("ppLine2").innerText="";
-	var q2=document.getElementById("q2");
+	document.getElementById("name").innerText="";
+	document.getElementById("line1").innerText="";
+	document.getElementById("line2").innerText="";
+	var q2=document.getElementById("content");
 	var em=document.getElementById("errorMessage");
 	//em.style.display="inline";
 	em.innerHTML="";
 	if (!resp || resp.error) {
 		var em = q2.appendChild(document.createElement("tt"));
-		em.innerHTML="<br>An error occurred while trying to fetch the polling place information<br>" + JSON.stringify(resp);
+		em.innerHTML='<br>Sorry, something went wrong. Try this <a href="http://www.elections.ny.gov/CountyBoards.html">link</a>.<br>';
 		return;
 	}
 
