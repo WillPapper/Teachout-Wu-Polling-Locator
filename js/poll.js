@@ -123,9 +123,9 @@ function GetResponse(resp,rawResp) {
 	//ins.innerText=JSON.stringify(resp);
 
 	var addr=resp.pollingLocations[0].address;
-	document.getElementById("ppName").innerText=addr.locationName;
-	document.getElementById("ppLine1").innerText=addr.line1;
-	document.getElementById("ppLine2").innerText=addr.city + ", " + addr.zip;
+	document.getElementById("name").innerText=addr.locationName;
+	document.getElementById("line1").innerText=addr.line1;
+	document.getElementById("line2").innerText=addr.city + ", " + addr.zip;
 
 
 }
