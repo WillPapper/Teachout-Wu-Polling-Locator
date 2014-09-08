@@ -75,6 +75,7 @@ function GetResponse(resp,rawResp) {
 				if (eab.votingLocationFinderUrl) em.innerHTML+=("<br/><a href='" + eab.votingLocationFinderUrl + "' target='blank'>Voting Location Finder</a>");
 				if (eab.electionRegistrationConfirmationUrl) em.innerHTML+=("<br/><a href='" + eab.electionRegistrationConfirmationUrl + "' target='blank'>Election Registration Confirmation</a>");
 				if (eab.hoursOfOperation) em.innerHTML+=("<br/><a href='" + eab.hoursOfOperation + "' target='blank'>Hours of operation</a>");
+				/*
 				if (eab.electionOfficials) {
 					if (eab.electionOfficials.length>0) {
 						em.innerHTML+=("<br/>Election Officials:");
@@ -105,6 +106,7 @@ function GetResponse(resp,rawResp) {
 						}
 					}
 				}
+				*/
 			}
 		}
 		return;
