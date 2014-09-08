@@ -155,6 +155,12 @@ function q1Yes() {
 function q1NotYet() {
 	document.location="locator.html";
 }
+function inNYC() {
+	document.location="http://nyc.pollsitelocator.com/";
+}
+function outsideNYC() {
+	document.location="http://www.elections.ny.gov/CountyBoards.html";
+}
 /*
 function SetToolAlignment() {
 	console.log("SetToolAlignment");
