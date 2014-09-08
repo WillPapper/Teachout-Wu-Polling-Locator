@@ -29,12 +29,10 @@ function checkAuth() {
 function GetResponse(resp,rawResp) {
 	// clear any old fields
 	document.getElementById("result").innerText="";
-	var q2=document.getElementById("content");
-	var em=document.getElementById("errorMessage");
+	var em=document.getElementById("result");
 	//em.style.display="inline";
-	em.innerHTML="";
+	// em.innerHTML="";
 	if (!resp || resp.error) {
-		var em = q2.appendChild(document.createElement("tt"));
 		em.innerHTML='<br>Sorry, something went wrong. Try this <a href="http://www.elections.ny.gov/CountyBoards.html">link</a>.<br>';
 		return;
 	}
