@@ -120,6 +120,7 @@ function GetResponse(resp,rawResp) {
 	//ins.innerText=JSON.stringify(resp);
 
 	var addr=resp.pollingLocations[0].address;
+	document.getElementById("pollheader").innerText="YOUR POLLING PLACE";
 	document.getElementById("result").innerText=addr.locationName + "\n" + addr.line1 + "\n" + addr.city + ", " + addr.zip;
 
 
