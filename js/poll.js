@@ -153,7 +153,7 @@ function enterkey() {
 	if (window.event) key=event.keyCode;
 	else if (event.which) key=event.which;
 	//console.log( String.fromCharCode(key));
-	if (key==0x0d) document.getElementById("search").click();
+	if (key==0x0d) document.getElementById("searchBtn").click();
 }
 function q1Yes() {
 	document.location="http://teachoutwu.amicushq.com/landing/1";
