@@ -45,7 +45,7 @@ function GetResponse(resp,rawResp) {
 
 	if (resp.normalizedInput) {
 		with (resp.normalizedInput) {
-			document.getElementById("inputaddress").value=line1 + ", " + city + ", " + state + ", " + zip;
+			document.getElementById("address").value=line1 + ", " + city + ", " + state + ", " + zip;
 		}
 	}
 
@@ -134,7 +134,7 @@ function handleAuthResult(authResult) {
 	console.log( "handleAuthResult begins" );
 	/*
 	var ElectionID=4047;
-	var Address=document.getElementById("inputaddress").innerText;
+	var Address=document.getElementById("address").innerText;
 	var Request=gapi.client.request({
 		"path":"/civicinfo/v1/voterinfo/" + ElectionID + "/lookup",
 		"method":"POST",
